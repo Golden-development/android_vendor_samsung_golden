@@ -67,7 +67,7 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-#   vendor/samsung/golden/proprietary/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
+    vendor/samsung/golden/proprietary/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
     vendor/samsung/golden/proprietary/etc/AGPS_CA.pem:system/etc/AGPS_CA.pem
 
 # Lights/sensors modules
