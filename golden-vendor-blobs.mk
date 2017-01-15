@@ -566,8 +566,7 @@ PRODUCT_COPY_FILES += \
 
 # DRM
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    $(LOCAL_PATH)/system/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
-    $(LOCAL_PATH)/system/lib/libwvm.so:system/lib/libwvm.so \
-    $(LOCAL_PATH)/system/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so
-    
+    vendor/samsung/golden/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/golden/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
+    vendor/samsung/golden/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/samsung/golden/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so
