@@ -14,7 +14,7 @@
 
 # Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
+    vendor/samsung/golden/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.vendor.montblanc.so \
     vendor/samsung/golden/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
     vendor/samsung/golden/proprietary/usr/share/camera/config_file/samsung_s5k4ecgx_golden.dat:system/usr/share/camera/config_file/samsung_s5k4ecgx_golden.dat \
     vendor/samsung/golden/proprietary/usr/share/camera/config_file/siliconfile_sr030pc50.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50.dat
@@ -44,9 +44,9 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/golden/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/golden/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so
+#    vendor/samsung/golden/proprietary/lib/libril.so:system/lib/libril.so \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
@@ -67,7 +67,7 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
+    vendor/samsung/golden/proprietary/lib/hw/gps.montblanc.so:system/lib/hw/gps.vendor.montblanc.so \
     vendor/samsung/golden/proprietary/etc/AGPS_CA.pem:system/etc/AGPS_CA.pem
 
 # Lights/sensors modules
